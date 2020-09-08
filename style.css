@@ -1,4 +1,5 @@
 body {
+  color: #251605;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -34,7 +35,7 @@ div.collapse a {
 }
 
 div.collapse a:hover {
-  color: black
+  color: #251605
 }
 
 .projects img {
@@ -57,9 +58,15 @@ div.collapse a:hover {
 }
 
 .connect a {
-  color: black;
+  color: #251605;
   text-decoration: none;
   cursor: crosshair;
+}
+
+.scrolled {
+  background: #6C756B;
+  transition: background 750ms;
+
 }
 
 @media all and (min-width:353px) {
