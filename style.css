@@ -11,19 +11,13 @@ h2 {
   font-size: .85rem;
 }
 
-span {
+button span {
   color: lightgray;
   font-size: 2rem;
 }
 
 #top-navbar {
   padding: 0;
-}
-
-#top-navbar .navbar-brand {
-  color: black;
-  font-weight: 400;
-  font-size: 1.5rem;
 }
 
 div.collapse a {
@@ -38,11 +32,35 @@ div.collapse a:hover {
   color: #251605
 }
 
-.projects img {
-  width: 360px;
-  max-width: 400px;
+.projects .main-pro {
+  width: 420px;
+  max-width: 420px;
   padding: 0 6px;
-  height: 240px;
+  height: 320px;
+}
+
+.projects a:hover {
+  background-color: black;
+  transform: scale(1.5);
+}
+
+.projects img {
+  width: 240px;
+  height: 180px;
+  margin-bottom: 24px;
+}
+
+.projects a {
+  color: #F87666;
+  cursor: crosshair;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.projects p em {
+  color: #F87666;
 }
 
 .title {
@@ -64,18 +82,17 @@ div.collapse a:hover {
 }
 
 .scrolled {
-  background: #6C756B;
+  background: #F87666;
   transition: background 750ms;
-
 }
 
 @media all and (min-width:353px) {
   .title {
-    margin: 240px 20%;
+    margin: 240px 10%;
   }
 
   .connect {
-    margin: auto 20%;
+    margin: auto 10%;
   }
 
   .connect p {
