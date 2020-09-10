@@ -32,26 +32,26 @@ div.collapse a:hover {
   color: #251605
 }
 
-.projects .main-pro {
-  width: 420px;
+.projects .main-pro-img {
+  width: 100%;
   max-width: 420px;
   padding: 0 6px;
-  height: 320px;
 }
 
 .projects a:hover {
-  background-color: black;
+  border-radius: 6px;
+  background-color: lightgray;
   transform: scale(1.5);
 }
 
 .projects img {
-  width: 240px;
-  height: 180px;
+  width: 100%;
   margin-bottom: 24px;
 }
 
 .projects a {
-  color: #F87666;
+  padding: 6px 12px;
+  color: #732C2C;
   cursor: crosshair;
   font-size: 1.2rem;
   font-weight: 700;
@@ -60,7 +60,12 @@ div.collapse a:hover {
 }
 
 .projects p em {
-  color: #F87666;
+  color: #732C2C;
+  font-weight: 700;
+}
+
+.project {
+  margin: 36px 0 80px;
 }
 
 .title {
@@ -82,8 +87,23 @@ div.collapse a:hover {
 }
 
 .scrolled {
-  background: #F87666;
+  background: #732C2C;
   transition: background 750ms;
+}
+
+@media all and (min-width:540px) {
+  .projects .main-pro-img {
+    width: 420px;
+    max-width: 420px;
+    padding: 0 6px;
+    height: 320px;
+  }
+
+  .projects img {
+    width: 240px;
+    height: 180px;
+    margin-bottom: 24px;
+  }
 }
 
 @media all and (min-width:353px) {
