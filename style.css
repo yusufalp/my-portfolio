@@ -112,9 +112,12 @@ div.collapse a:hover {
   }
 
   .connect {
-    margin: auto 10%;
+    margin: auto 20%;
   }
 
+  .personal {
+    margin: 240px 20%;
+  }
   .connect p {
     padding-right: 36px;
   }
