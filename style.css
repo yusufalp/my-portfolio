@@ -33,6 +33,7 @@ div.collapse a:hover {
 }
 
 .projects .main-pro-img {
+  max-height: 240px;
   width: 100%;
   max-width: 420px;
   padding: 0 6px;
@@ -90,6 +91,8 @@ div.collapse a:hover {
   background: #732C2C;
   transition: background 750ms;
 }
+
+
 
 @media all and (min-width:540px) {
   .projects .main-pro-img {
