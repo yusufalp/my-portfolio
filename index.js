@@ -1,6 +1,5 @@
 $(function () {
   $(document).scroll(function () {
-    let $nav = $('#top-navbar')
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height())
+    $('#top-navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar-toggler').height())
   })
 })
