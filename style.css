@@ -92,6 +92,11 @@ div.collapse a:hover {
   transition: background 750ms;
 }
 
+.stack-logo {
+  height: 60px;
+  margin-right: 36px;
+  margin-top: 24px;
+}
 
 
 @media all and (min-width:540px) {
@@ -107,6 +112,7 @@ div.collapse a:hover {
     height: 180px;
     margin-bottom: 24px;
   }
+
 }
 
 @media all and (min-width:353px) {
