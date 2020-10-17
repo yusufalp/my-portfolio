@@ -20,7 +20,7 @@ button span {
   padding: 0;
 }
 
-div.collapse a {
+.nav-item a {
   text-transform: uppercase;
   color: lightgray;
   cursor: crosshair;
