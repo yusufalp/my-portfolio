@@ -65,6 +65,10 @@ div.collapse a:hover {
   font-weight: 700;
 }
 
+.projects .api-link {
+  font-size: 14px;
+}
+
 .project {
   margin: 36px 0 80px;
 }
